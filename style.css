@@ -1,0 +1,73 @@
+.zero {
+margin: 0;
+}
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: cover;
+    background-image: url(windows-8fon.jpg);
+}
+.wrapper {
+    /* background-color: aqua; */
+    height: 95vh;
+    width: 200vw;
+    box-sizing: border-box;
+    padding: 40px;
+    font-size: 0;
+}
+.wrapper_item {
+    /* width: 300px; */
+    /* height: 100%; */
+    /* background-color: blue; */
+    display: inline-block;
+    vertical-align: top;
+}
+.wrapper_item_mr {
+    margin-right: 60px;
+}
+
+.group {
+    font-size: 0;
+}
+
+.group__item {
+    width: 210px;
+    height: 650px;
+    /* background-color: blueviolet; */
+    display: inline-block;
+    vertical-align: top;
+}
+.group__item_mr {
+    margin-right: 10px;
+}
+.group__sq {
+    width: 210px;
+    height: 210px;
+    background-color: brown;
+    border-radius: 5%;
+}
+.group__sq_small {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    background-color:chocolate;
+    border-radius: 5%;
+}
+.group__rect {
+    width: 210px;
+    height: 100px;
+    background-color: darkturquoise;
+    border-radius: 5%;
+}
+.group__sq_mr {
+    margin-right: 10px;
+}
+.group__sq_mb {
+    margin-bottom: 10px;
+}
+.group__rect_mb {
+    margin-bottom: 10px;
+}
